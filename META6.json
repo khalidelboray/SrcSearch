@@ -1,6 +1,6 @@
 {
   "name": "Src::Search",
-  "description": "Extract URLs,endpoints,paths and word-lists form source files",
+  "description": "Extract URLs, endpoints, paths, comments and word-lists form source files",
   "version": "0.1",
   "perl": "6.*",
   "auth": "github:khalidelboray",
@@ -8,7 +8,8 @@
   "build-depends": [],
   "test-depends": [],
   "provides": {
-    "Src::Search": "lib/Src/Search.pm6"
+    "Src::Search": "lib/Src/Search.pm6",
+    "Src::Search::Regexes": "lib/Src/Search/Regexes.pm6"
   },
   "resources": [],
   "license": "Artistic-2.0",
